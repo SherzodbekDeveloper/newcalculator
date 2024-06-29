@@ -5,6 +5,7 @@ body{
     margin: 0;
      justify-content: center;
      height: 100vh;    
+     background: black;
 }
 
 *{
@@ -104,4 +105,13 @@ button:active{
         font-size: 30px;
     }
     
+}
+@media (max-width:270px) {
+    #keys{
+
+        gap: 3px;
+    }
+    #calculator{
+        max-width: 100%;
+    }
 }
